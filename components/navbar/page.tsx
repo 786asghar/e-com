@@ -11,25 +11,25 @@ import Image from 'next/image';
 function Navbar
 () {
   return (
-    <div className='flex justify-between'>
-      <div className='flex'>
+    <div className='flex justify-between '>
+      <div className=' xs: sm:text-sm flex md:flex'>
         
     <Image src={img1} height={32} width={50} alt="pic"></Image>
-    <p className='txt'>Furniro</p>
+    <p className='text-bold text-xs sm:text-sm md:font-bold font-family: montserrat lg:text-lg xl:text-xl '>Furniro</p>
     </div>
-        <div className= 'sm: font-bold'>
+        <div className= 'text-xs sm:text-sm md:text-balance lg:text-lg xl:text-xl'>
     <Link href="/">Home</Link></div>
   
-  <div className='font-bold'>
+  <div className='text-xs sm:text-sm md:text-balance lg:text-lg xl:text-xl'>
     <Link href="/shop">Shop</Link>
   </div>
-  <div className='font-bold'>
+  <div className='text-xs sm:text-sm md:text-balance lg:text-lg xl:text-xl'>
   <Link href="/blog">Blog</Link>
   </div>
-  <div className='font-bold'>
+  <div className='text-xs sm:text-sm md:text-balance lg:text-lg xl:text-xl'>
     <Link href="/contect">Contect</Link>
   </div>
-  <div className='flex justify-between gap-6'>
+  <div className='flex justify-between gap-4'>
   
   <Image src={img2} height={14} width={14} alt="pic"></Image>
   <Image src={img3} height={14} width={14} alt="pic"></Image>

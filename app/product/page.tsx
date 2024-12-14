@@ -21,6 +21,7 @@ import img15 from "@/components/images/ant-design_twitter-circle-filled.png"
 import img16 from "@/components/images/Group 21.png"
 import img17 from "@/components/images/Group 101.png"
 import Link from 'next/link'
+import { Grid } from 'lucide-react'
 function Product
 () {
   return (
@@ -38,6 +39,7 @@ function Product
 
       <div className='flex '>
         <div className=''>
+        <div className='sm:width{600}'>
         <Image src={img4}  height={500} width={1440} alt="pic"></Image>
         </div>
 
@@ -66,9 +68,14 @@ function Product
         <Image src={img12}  height={64} width={123} alt="pic"></Image>
         <Link href="/cart"><Image src={img16}  height={64} width={215} alt="pic"></Image></Link>
         <Link href="/comparison"><Image src={img17}  height={64} width={215} alt="pic"></Image> </Link></div>
+      <div className='sm:grid grid-cols-1 md:flex gap-3'>
+        <Image src={img12}  height={40} width={123} alt="pic"></Image>
+        <Link href="/cart"><Image src={img16}  height={64} width={123}  alt="pic"  ></Image></Link>
+        <Link href="/comparison"><Image src={img17}  height={64} width={123} alt="pic" ></Image> </Link></div>
       </div>
   </div>
       <div className='text-center py-4'>
+      <div className='text-center py-4 sm:text-sm md:base lg:lg'>
        <p className='font-bold'>SKU       :  SS001</p> 
        <p className='font-bold'>Category  :  Sofas</p>
        <p className='font-bold'>Tags       :  Sofa, Chair, Home, Shop</p>

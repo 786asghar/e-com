@@ -40,6 +40,8 @@ function Shop() {
     
     <p className='font-bold text-3xl textt'>Asgaard sofa</p>
     <p className='font-bold text-2xl'>Rp. 250,000.00</p>
+    <p className='text-xs sm:text-ms md:text-base lg:xl xl:2xl'>Asgaard sofa</p>
+    <p className='text-xs sm:text-ms md:text-base xl:text-xl lg:text-lg '>Rp. 250,000.00</p>
     </div>
     
       <div >
@@ -51,13 +53,13 @@ function Shop() {
       <Image src={img8} height={446} width={285} alt="pic"></Image>
       </div>
     </div>
-    <div className='p-3'>
+    <div className=''>
     <Image src={img9} height={446} width={1236} alt="pic"></Image>
     </div>
-    <div className='p-3'>
+    <div className=''>
     <Image src={img9} height={446} width={1236} alt="pic"></Image>
     </div>
-    <div className='p-3'>
+    <div className=''>
     <Image src={img9} height={446} width={1236} alt="pic"></Image>
     </div>
     <div className='flex justify-center'>

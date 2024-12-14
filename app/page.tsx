@@ -23,6 +23,7 @@ export default function Home() {
       <br/>
       <br/>
      <div className="pic1">
+     <div>
      <Image src={img3} height={1084} width={1236} alt="pic"></Image>
      </div>
      <div>

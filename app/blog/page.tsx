@@ -13,6 +13,7 @@ export default function Blog() {
       <Navbar/>
       <Image src={img}  height={316} width={1440} alt="pic"></Image>
       <div className='flex'>
+      <div className=' sm:grid grid-cols-1 md:flex'>
         <div>
         <Image src={img1}  height={334} width={350} alt="pic"></Image>
         </div>

@@ -15,6 +15,7 @@ function Cart
         <Navbar/>
         <Image src={img1}  height={316} width={1440} alt="pic"></Image>
         <div className='flex'>
+        <div className='sm:grid grid-cols-1 md:flex'>
         <div>
         <Image src={img2}  height={215} width={817} alt="pic"></Image>
         </div>
