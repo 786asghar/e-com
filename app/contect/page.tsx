@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+
 import Navbar from '@/components/navbar/page'
 import img from "@/components/images/group 888.png"
 import img1 from "@/components/images/Group 1611.png"

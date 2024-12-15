@@ -6,7 +6,7 @@ import img4 from "@/components/images/Vector1.png";
 import img5 from "@/components/images/ant-design_shopping-cart-outlined.png";
 import Image from 'next/image';
   import Link from 'next/link';
-  import Sighup from "@/app/shop/page"
+  
 
 function Navbar
 () {
@@ -42,46 +42,4 @@ function Navbar
 
 export default Navbar
 
-        {/* <NavigationMenu>
-    <NavigationMenuList>
-      <NavigationMenuItem>
-        <NavigationMenuTrigger>Home</NavigationMenuTrigger>
-        <NavigationMenuContent>
-          <NavigationMenuLink>/</NavigationMenuLink>
-        </NavigationMenuContent>
-      </NavigationMenuItem>
-    </NavigationMenuList>
-  </NavigationMenu>
-
-  <NavigationMenu>
-    <NavigationMenuList>
-      <NavigationMenuItem>
-        <NavigationMenuTrigger>Contact</NavigationMenuTrigger>
-        <NavigationMenuContent>
-          <NavigationMenuLink>Link</NavigationMenuLink>
-        </NavigationMenuContent>
-      </NavigationMenuItem>
-    </NavigationMenuList>
-  </NavigationMenu>
-
-  <NavigationMenu>
-    <NavigationMenuList>
-      <NavigationMenuItem>
-        <NavigationMenuTrigger>About</NavigationMenuTrigger>
-        <NavigationMenuContent>
-          <NavigationMenuLink>Link</NavigationMenuLink>
-        </NavigationMenuContent>
-      </NavigationMenuItem>
-    </NavigationMenuList>
-  </NavigationMenu>
-
-  <NavigationMenu>
-    <NavigationMenuList>
-      <NavigationMenuItem>
-        <NavigationMenuTrigger>Sigh Up</NavigationMenuTrigger>
-        <NavigationMenuContent>
-          <NavigationMenuLink>sigh-up</NavigationMenuLink>
-        </NavigationMenuContent>
-      </NavigationMenuItem>
-    </NavigationMenuList>
-  </NavigationMenu> */}
+       
